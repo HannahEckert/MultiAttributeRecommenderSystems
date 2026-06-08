@@ -32,7 +32,7 @@ Following is a complete collection of fairness-utility trade-off plots, as not a
 
 
 ## Additional Training Details 
-All models are trained three times with seeds 42,43,44. Probabilistic post-ptocessing methods are additionally run 5 times with seeds 1,2,3,4,5. Reported results are averaged over runs. Specific training details are as reported in the config/recbole_config_default.yaml file. 
+All models are trained three times with seeds 42,43,44. Probabilistic post-ptocessing methods are additionally run 5 times with seeds 1,2,3,4,5. Reported results are averaged over runs. Specific model training details are as reported in the config/recbole_config_default.yaml file. All post processing methods except Continent are run with lambda=[0.1,0.01,0.005,0.001,0.0005,0.0001,0.00005]. Continent is run wit lambda=[1,0.75,0.5,0.25]. That is because in the Continent method the lambda is not a weight but a proportion of actions that are realised.
 
 
 
