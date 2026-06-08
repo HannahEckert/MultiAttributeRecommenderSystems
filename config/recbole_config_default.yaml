@@ -13,12 +13,12 @@ embedding_size: 64
 MAX_ITEM_LIST_LENGTH: 500
 
 # Training and evaluation config
-epochs: 3 # We do early stopping, in WS23/24 experiments this was never reached
+epochs: 10 # We do early stopping, in WS23/24 experiments this was never reached
 train_batch_size: 4096
 eval_batch_size: 4096 #1048576 
 # Do Validation after every n epochs
-eval_step: 5
-stopping_step: 3 # Stop if validation metric does not improve for 500 epochs (no early stopping)
+eval_step: 1
+stopping_step: 2 
 train_neg_sample_args:
     distribution: uniform
 eval_args:
@@ -33,5 +33,6 @@ metric_decimal_place: 6
 
 # hardware settings
 use_gpu: True # will default to CPU if no GPU is available
-gpu_id: 3
+gpu_id: 8
+
 
