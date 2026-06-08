@@ -31,6 +31,10 @@ Following is a complete collection of fairness-utility trade-off plots, as not a
 <img width="1377" height="895" alt="synthetic" src="https://github.com/user-attachments/assets/1c382eb4-1be7-425c-838b-e81e84faa734" />
 
 
+## Additional Training Details 
+All models are trained three times with seeds 42,43,44. Probabilistic post-ptocessing methods are additionally run 5 times with seeds 1,2,3,4,5. Reported results are averegeed over runs. Specific training details are as reported in the config file. 
+
+
 
 
 
