@@ -32,7 +32,7 @@ Following is a complete collection of fairness-utility trade-off plots, as not a
 
 
 ## Additional Training Details 
-All models are trained three times with seeds 42,43,44. Probabilistic post-ptocessing methods are additionally run 5 times with seeds 1,2,3,4,5. Reported results are averegeed over runs. Specific training details are as reported in the config file. 
+All models are trained three times with seeds 42,43,44. Probabilistic post-ptocessing methods are additionally run 5 times with seeds 1,2,3,4,5. Reported results are averegeed over runs. Specific training details are as reported in the config/recbole_config_default.yaml file. 
 
 
 
